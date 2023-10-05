@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
             HelloWorldTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Greeting("Android")
+                    Greeting("World")
                 }
             }
         }
@@ -38,6 +38,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     HelloWorldTheme {
-        Greeting("Android")
+        Greeting("World")
     }
 }
